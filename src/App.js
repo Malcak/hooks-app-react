@@ -1,4 +1,5 @@
 import React from 'react';
+import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
 import { FormApp } from './components/useEffect/FormApp';
 import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
 import { CounterApp } from './components/useState/CounterApp';
@@ -14,6 +15,8 @@ export const App = () => {
       <FormApp />
       <hr />
       <FormWithCustomHook />
+      <hr />
+      <MultipleCumtomHooks />
     </div>
   );
 };
