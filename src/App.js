@@ -1,9 +1,13 @@
 import React from 'react';
+import { CounterApp } from './components/useState/CounterApp';
+import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
 
 export const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <CounterApp />
+      <hr />
+      <CounterWithCustomHook />
     </div>
   );
 };
