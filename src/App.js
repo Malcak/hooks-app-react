@@ -1,4 +1,5 @@
 import React from 'react';
+import { CallbackHook } from './components/memos/CallbackHook';
 import { MemoHook } from './components/memos/MemoHook';
 import { Memorize } from './components/memos/Memorize';
 import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
@@ -32,6 +33,8 @@ export const App = () => {
       <Memorize />
       <hr />
       <MemoHook />ñ
+      <hr />
+      <CallbackHook />
     </div>
   );
 };
