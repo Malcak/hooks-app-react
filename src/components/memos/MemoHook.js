@@ -3,7 +3,7 @@ import { heavyProcess } from '../../helpers/heavyProcess';
 import { useCounter } from '../../hooks/useCounter';
 
 export const MemoHook = () => {
-  const { counter, increment } = useCounter(5000);
+  const { counter, increment } = useCounter(1);
   const [show, setShow] = useState(true);
 
   const memoHeavyProcess = useMemo(() => heavyProcess(counter), [counter]);
