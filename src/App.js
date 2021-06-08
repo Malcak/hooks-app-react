@@ -2,6 +2,7 @@ import React from 'react';
 import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
 import { FormApp } from './components/useEffect/FormApp';
 import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
+import { LayoutApp } from './components/useLayoutEffect/LayoutApp';
 import { FocusApp } from './components/useRef/FocusApp';
 import { RealExampleRef } from './components/useRef/RealExampleRef';
 import { CounterApp } from './components/useState/CounterApp';
@@ -23,6 +24,8 @@ export const App = () => {
       <FocusApp />
       <hr />
       <RealExampleRef />
+      <hr />
+      <LayoutApp />
     </div>
   );
 };
