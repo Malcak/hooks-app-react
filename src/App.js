@@ -1,4 +1,5 @@
 import React from 'react';
+import { MemoHook } from './components/memos/MemoHook';
 import { Memorize } from './components/memos/Memorize';
 import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
 import { FormApp } from './components/useEffect/FormApp';
@@ -29,6 +30,8 @@ export const App = () => {
       <LayoutApp />
       <hr />
       <Memorize />
+      <hr />
+      <MemoHook />ñ
     </div>
   );
 };
