@@ -1,4 +1,5 @@
 import React from 'react';
+import { Memorize } from './components/memos/Memorize';
 import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
 import { FormApp } from './components/useEffect/FormApp';
 import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
@@ -26,6 +27,8 @@ export const App = () => {
       <RealExampleRef />
       <hr />
       <LayoutApp />
+      <hr />
+      <Memorize />
     </div>
   );
 };
