@@ -10,6 +10,7 @@ import { FocusApp } from './components/useRef/FocusApp';
 import { RealExampleRef } from './components/useRef/RealExampleRef';
 import { CounterApp } from './components/useState/CounterApp';
 import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
+import { Padre } from './components/tareaMemo/Padre';
 
 export const App = () => {
   return (
@@ -35,6 +36,8 @@ export const App = () => {
       <MemoHook />ñ
       <hr />
       <CallbackHook />
+      <hr />
+      <Padre />
     </div>
   );
 };
