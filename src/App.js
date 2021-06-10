@@ -6,6 +6,7 @@ import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCu
 import { FormApp } from './components/useEffect/FormApp';
 import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
 import { LayoutApp } from './components/useLayoutEffect/LayoutApp';
+import { TodoApp } from './components/useReducer/TodoApp';
 import { FocusApp } from './components/useRef/FocusApp';
 import { RealExampleRef } from './components/useRef/RealExampleRef';
 import { CounterApp } from './components/useState/CounterApp';
@@ -32,9 +33,11 @@ export const App = () => {
       <hr />
       <Memorize />
       <hr />
-      <MemoHook />ñ
+      <MemoHook />
       <hr />
       <CallbackHook />
+      <hr />
+      <TodoApp />
     </div>
   );
 };
