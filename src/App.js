@@ -3,6 +3,7 @@ import { CallbackHook } from './components/memos/CallbackHook';
 import { MemoHook } from './components/memos/MemoHook';
 import { Memorize } from './components/memos/Memorize';
 import { MultipleCumtomHooks } from './components/multipleCustomHooks/MultipleCumtomHooks';
+import { MainApp } from './components/useContext/MainApp';
 import { FormApp } from './components/useEffect/FormApp';
 import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
 import { LayoutApp } from './components/useLayoutEffect/LayoutApp';
@@ -38,6 +39,8 @@ export const App = () => {
       <CallbackHook />
       <hr />
       <TodoApp />
+      <hr />
+      <MainApp />
     </div>
   );
 };
