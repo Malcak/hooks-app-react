@@ -27,6 +27,13 @@ export const useFetch = (url) => {
             data,
           });
         }
+      })
+      .catch(() => {
+        setState({
+          data: null,
+          loading: false,
+          error: 'there was a failure in the request',
+        });
       });
   }, [url]);
 
