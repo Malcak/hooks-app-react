@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on the <App /> component should display the component correctly 1`] = `
+<div>
+  <CounterApp />
+  <hr />
+  <CounterWithCustomHook />
+  <hr />
+  <FormApp />
+  <hr />
+  <FormWithCustomHook />
+  <hr />
+  <MultipleCumtomHooks />
+  <hr />
+  <FocusApp />
+  <hr />
+  <RealExampleRef />
+  <hr />
+  <LayoutApp />
+  <hr />
+  <Memorize />
+  <hr />
+  <MemoHook />
+  <hr />
+  <CallbackHook />
+  <hr />
+  <TodoApp />
+  <hr />
+  <MainApp />
+</div>
+`;
