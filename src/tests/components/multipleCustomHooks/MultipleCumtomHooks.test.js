@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { MultipleCumtomHooks } from '../../components/multipleCustomHooks/MultipleCumtomHooks';
-import { useFetch } from '../../hooks/useFetch';
-import { useCounter } from '../../hooks/useCounter';
-jest.mock('../../hooks/useFetch');
-jest.mock('../../hooks/useCounter');
+import { MultipleCumtomHooks } from '../../../components/multipleCustomHooks/MultipleCumtomHooks';
+import { useFetch } from '../../../hooks/useFetch';
+import { useCounter } from '../../../hooks/useCounter';
+jest.mock('../../../hooks/useFetch');
+jest.mock('../../../hooks/useCounter');
 
 describe('tests on the <MultipleCustomHooks /> component', () => {
   beforeEach(() => {
