@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MultipleCumtomHooks } from '../multipleCustomHooks/MultipleCumtomHooks';
 
 export const RealExampleRef = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const handleClick = () => {
     setShow(!show);
